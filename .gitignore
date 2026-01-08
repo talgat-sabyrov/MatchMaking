@@ -1,0 +1,92 @@
+# .NET / Visual Studio / Rider / VS Code
+bin/
+obj/
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
+*.vscode/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+global.json
+NuGet.Config
+
+# dotnet tools and test results
+*.received.*
+*.dotCover
+.dotCover/
+TestResults/
+coverage*/
+coverage.json
+
+# Docker
+docker-compose.override.yml
+Dockerfile.*
+!.dockerignore
+
+# Appsettings and secrets
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+secrets.json
+*.secrets
+
+# Environment variables
+.env
+.env.local
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Mac/Linux hidden files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+~*.*
+
+# Rider specific
+*.iml
+.modules/
+
+# Test artifacts
+TestResult.xml
+
+# Local history
+.ionide/
+
+# Exclude common sensitive folders
+Secrets/
+keys/
+
+# End of file

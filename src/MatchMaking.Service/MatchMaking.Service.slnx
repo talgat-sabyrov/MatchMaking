@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../MatchMaking.Worker/MatchMaking.Worker.csproj" />
+  <Project Path="MatchMaking.Service/MatchMaking.Service.csproj" />
+</Solution>
